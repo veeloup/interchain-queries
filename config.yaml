@@ -1,7 +1,7 @@
 default_chain: stride-testnet
 chains:
   gaia-testnet:
-    key: rly-gaia
+    key: icq-gaia
     chain-id: GAIA
     rpc-addr: http://95.214.55.4:26667
     grpc-addr: http://95.214.55.4:9092
@@ -16,7 +16,7 @@ chains:
     output-format: json
     sign-mode: direct
   stride-testnet:
-    key: rly-stride
+    key: icq-stride
     chain-id: STRIDE-TESTNET-4
     rpc-addr: http://127.0.0.1:26657
     grpc-addr: http://127.0.0.1:36657
